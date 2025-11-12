@@ -1,0 +1,4 @@
+- arch: riscv64
+  name: Fedora RISC-V Koji
+  baseurl: https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/
+  gpgkey: http://fedora.riscv.rocks/koji/fileinfo?rpmID=1292517&filename=/etc/pki/rpm-gpg/RPM-GPG-KEY-41-fedora

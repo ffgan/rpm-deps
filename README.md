@@ -1,0 +1,1 @@
+python rpm.py --packages PACKAGES [PACKAGES ...] --rpmtree RPMTREE_NAME
