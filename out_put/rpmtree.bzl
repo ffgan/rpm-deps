@@ -115,7 +115,7 @@ rpmtree(
       "@p11-kit-0__0.25.5-3.fc41.riscv64//rpm",
       "@p11-kit-trust-0__0.25.5-3.fc41.riscv64//rpm",
       "@pam-libs-0__1.6.1-5.fc41.riscv64//rpm",
-      "@passt-0__0^20241030.gee7d0b6-1.fc41.riscv64//rpm",
+      "@passt-0__0-20241030.gee7d0b6-1.fc41.riscv64//rpm",
       "@pcre2-0__10.44-1.fc41.1.riscv64//rpm",
       "@pcre2-syntax-0__10.44-1.fc41.1.noarch//rpm",
       "@publicsuffix-list-dafsa-0__20240107-4.fc41.noarch//rpm",

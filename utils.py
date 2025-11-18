@@ -31,11 +31,13 @@ def calculate_sha256(file_path: str) -> str:
 
 
 def generate_package_name(pkg_info: dict) -> str:
+    #  workspace names may contain only A-Z, a-z, 0-9, '-', '_' and '.'
     epoch = pkg_info.get("epoch", "0")
-    ver = pkg_info["ver"]
+    ver = pkg_info["ver"].replace("^","-")
     rel = pkg_info["rel"]
     arch = pkg_info["arch"]
     pkg_info['name'] = pkg_info['name'].replace("+","-plus")
+
     return f"{pkg_info['name']}-{epoch}__{ver}-{rel}.{arch}"
 
 

@@ -903,7 +903,7 @@ rpm(
 )
 
 rpm(
-    name = "passt-0__0^20241030.gee7d0b6-1.fc41.riscv64",
+    name = "passt-0__0-20241030.gee7d0b6-1.fc41.riscv64",
     sha256 = "3e186b272e49ecb3c3b2d98e7143011a3c802bb5c35a6eb7724ee4177a468a3e",
     urls = [
        "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/passt/0^20241030.gee7d0b6/1.fc41/riscv64/passt-0^20241030.gee7d0b6-1.fc41.riscv64.rpm"
