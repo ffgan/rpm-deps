@@ -326,7 +326,6 @@ rpmtree(
       "@python-pip-wheel-0__24.2-1.fc41.noarch//rpm",
       "@python3-0__3.13.0-1.fc41.riscv64//rpm",
       "@python3-libs-0__3.13.0-1.fc41.riscv64//rpm",
-      "@python3-ovirt-engine-sdk4-0__4.6.2-6.fc41.riscv64//rpm",
       "@python3-pycurl-0__7.45.3-4.fc41.riscv64//rpm",
       "@python3-six-0__1.16.0-21.fc41.noarch//rpm",
       "@qemu-img-2__9.0.0-1.fc41.riscv64//rpm",

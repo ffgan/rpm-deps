@@ -36,20 +36,6 @@ python3-pycurl
 python3-six
 "
 
-cdi_importer_extra_x86_64="
-nbdkit-vddk-plugin
-sqlite-libs
-ovirt-imageio-client
-python3-ovirt-engine-sdk4
-"
-
-cdi_importer_extra_riscv64="
-nbdkit-vddk-plugin
-sqlite-libs
-ovirt-imageio-client
-python3-ovirt-engine-sdk4
-"
-
 cdi_uploadserver="
 libnbd
 qemu-img
@@ -69,6 +55,6 @@ python rpm.py --packages PACKAGES $centos_base $centos_extra $testimage --rpmtre
 
 python rpm.py --packages PACKAGES $centos_base $centos_extra --rpmtree centos_base_riscv64
 
-python rpm.py --packages PACKAGES $centos_base $centos_extra $cdi_importer $cdi_importer_extra_riscv64 --rpmtree cdi_importer_base_riscv64
+python rpm.py --packages PACKAGES $centos_base $centos_extra $cdi_importer --rpmtree cdi_importer_base_riscv64
 
 python rpm.py --packages PACKAGES $centos_base $centos_extra $cdi_uploadserver --rpmtree cdi_uploadserver_base_riscv64

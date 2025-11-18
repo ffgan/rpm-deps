@@ -1182,14 +1182,6 @@ rpm(
 )
 
 rpm(
-    name = "python3-ovirt-engine-sdk4-0__4.6.2-6.fc41.riscv64",
-    sha256 = "08bef7c3bf6a5eeddb36865a3d0273614a7af62dec70764b7bacc550f91340ea",
-    urls = [
-       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/python-ovirt-engine-sdk4/4.6.2/6.fc41/riscv64/python3-ovirt-engine-sdk4-4.6.2-6.fc41.riscv64.rpm"
-    ],
-)
-
-rpm(
     name = "python3-pycurl-0__7.45.3-4.fc41.riscv64",
     sha256 = "f609105175ce027ab480b48bc745a5c14386892de4bbda9cf6789d92a2e63628",
     urls = [
