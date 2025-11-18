@@ -1,2 +1,4 @@
 Fedora RISC-V Koji/**
 .venv/**
+__pycache__/**
+.vscode/**

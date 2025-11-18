@@ -1,10 +1,5 @@
 #! /bin/bash
 
-
-# Freezing nginx to avoid segfaults when pulling images with tls
-# May get fixed with 1.25
-NGINX_VERSION="1:1.22.1-4.module_el9+666+132dc76f"
-
 # Packages that we want to be included in all container images.
 #
 # Further down we define per-image package lists, which are just like
@@ -63,7 +58,7 @@ qemu-img
 testimage="
 crypto-policies-scripts
 qemu-img
-nginx-${NGINX_VERSION}
+nginx
 python3-systemd
 systemd-libs
 openssl

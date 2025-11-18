@@ -135,6 +135,30 @@ rpm(
 )
 
 rpm(
+    name = "dbus-1__1.14.10-4.fc41.riscv64",
+    sha256 = "c7dcf36ab75ba792185e122e679b03b2a2853b7969cfd86be02bcca80e76d97e",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/dbus/1.14.10/4.fc41/riscv64/dbus-1.14.10-4.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "dbus-broker-0__36-4.fc41.riscv64",
+    sha256 = "27d28a86383b8ebfa961ec4d6445f99c9d7c3ae1e14816cea813b9cbc3e981b3",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/dbus-broker/36/4.fc41/riscv64/dbus-broker-36-4.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "dbus-common-1__1.14.10-4.fc41.noarch",
+    sha256 = "66c3201b59f2aec07e08dff239d02813193d81a414ad4f267bf7889b1daa941d",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/dbus/1.14.10/4.fc41/noarch/dbus-common-1.14.10-4.fc41.noarch.rpm"
+    ],
+)
+
+rpm(
     name = "expat-0__2.6.4-1.fc41.riscv64",
     sha256 = "419dbbb3317792a799d032618f6efbf9b9060d64d782d8450365e604a3f2e920",
     urls = [
@@ -147,6 +171,14 @@ rpm(
     sha256 = "e9d1a3da9aeb877b92fbd232cbd133bd8bc1bce8e98c6dfcbed0ea719e366c36",
     urls = [
        "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/fedora-repos/41/1.2.rv64/noarch/fedora-gpg-keys-41-1.2.rv64.noarch.rpm"
+    ],
+)
+
+rpm(
+    name = "fedora-logos-httpd-0__38.1.0-6.fc41.noarch",
+    sha256 = "9646d79d808afbd9611d69a15d9956be2446348dfc4d934f670af0c8e85337e5",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/fedora-logos/38.1.0/6.fc41/noarch/fedora-logos-httpd-38.1.0-6.fc41.noarch.rpm"
     ],
 )
 
@@ -275,6 +307,14 @@ rpm(
     sha256 = "67cc564fbcdf108ca9429443c775a3de9e346d61bd71618c0a504c363877cf0f",
     urls = [
        "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/gnutls/3.8.7/1.fc41/riscv64/gnutls-3.8.7-1.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "gperftools-libs-0__2.15-4.fc41.riscv64",
+    sha256 = "3de67004091848635d99f2b61fcbd3badb4e03eabce729fd53e7b4bbad21bcce",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/gperftools/2.15/4.fc41/riscv64/gperftools-libs-2.15-4.fc41.riscv64.rpm"
     ],
 )
 
@@ -459,6 +499,14 @@ rpm(
     sha256 = "1fe14a08d2e63863fc669406bdacd0e9783774e5844fad61e5c6479bff3c4a4b",
     urls = [
        "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/libevent/2.1.12/14.fc41/riscv64/libevent-2.1.12-14.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "libfdisk-0__2.40.2-4.fc41.riscv64",
+    sha256 = "ebe27b9c295ad44e0ad44514a78d4945dcb76743b4d942462688943d8ce09f89",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/util-linux/2.40.2/4.fc41/riscv64/libfdisk-2.40.2-4.fc41.riscv64.rpm"
     ],
 )
 
@@ -655,6 +703,14 @@ rpm(
 )
 
 rpm(
+    name = "libunwind-0__1.8.0-5.fc41.riscv64",
+    sha256 = "319385c71da97ea9059388239152fdf3c5fdd7b74f4820a32fd9853bb03ae6b8",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/libunwind/1.8.0/5.fc41/riscv64/libunwind-1.8.0-5.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
     name = "liburing-0__2.6-2.fc41.riscv64",
     sha256 = "2180c7ca8f71bf6f813f5ff9d20aebeca39b29e759c1c49769f37da661c9cdf1",
     urls = [
@@ -747,6 +803,38 @@ rpm(
     sha256 = "6cc5c6dc3961e5932387b53b34f56ca4524c41c0422a9d10e411d63bdc3636b5",
     urls = [
        "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/nftables/1.0.9/7.fc41/riscv64/nftables-1.0.9-7.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "nginx-2__1.26.2-1.fc41.riscv64",
+    sha256 = "48127f48fb50db392c7f3c436e528c5761f1186a37a0296c424b82b4fdeb64fd",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/nginx/1.26.2/1.fc41/riscv64/nginx-1.26.2-1.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "nginx-core-2__1.26.2-1.fc41.riscv64",
+    sha256 = "82751b5f24e77ae8386dd8f73a3c8a8225f31a83617012da097027143ef8e5ea",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/nginx/1.26.2/1.fc41/riscv64/nginx-core-1.26.2-1.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "nginx-filesystem-2__1.26.2-1.fc41.noarch",
+    sha256 = "64fc1f00ad657183a9c03f3ad72b8ac2b5aac54aaf9c8fae2723084bb784ed4c",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/nginx/1.26.2/1.fc41/noarch/nginx-filesystem-1.26.2-1.fc41.noarch.rpm"
+    ],
+)
+
+rpm(
+    name = "nginx-mimetypes-0__2.1.54-7.fc41.noarch",
+    sha256 = "69aa59d78db2dc736d083f41899063c087239d76d4ae21b2151d344d6a69e447",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/mailcap/2.1.54/7.fc41/noarch/nginx-mimetypes-2.1.54-7.fc41.noarch.rpm"
     ],
 )
 
@@ -943,10 +1031,26 @@ rpm(
 )
 
 rpm(
+    name = "systemd-0__256.8-1.fc41.riscv64",
+    sha256 = "6900272b22d35f953c8cae0cace2f14ca4a61c4b32c7417fa444d2f135505508",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/systemd/256.8/1.fc41/riscv64/systemd-256.8-1.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
     name = "systemd-libs-0__256.8-1.fc41.riscv64",
     sha256 = "c14df011c5cf8e472916ecd8e9ea8584ce337d5c0c1cc43a457bd7b0b3ebc10a",
     urls = [
        "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/systemd/256.8/1.fc41/riscv64/systemd-libs-256.8-1.fc41.riscv64.rpm"
+    ],
+)
+
+rpm(
+    name = "systemd-pam-0__256.8-1.fc41.riscv64",
+    sha256 = "78ef17e8af1e1c33e9ecf5e5c59be873641c310b9c19cd6696e98ef1b8731109",
+    urls = [
+       "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/systemd/256.8/1.fc41/riscv64/systemd-pam-256.8-1.fc41.riscv64.rpm"
     ],
 )
 
@@ -1022,7 +1126,7 @@ rpm(
 )
 
 rpm(
-    name = "libstdc++-0__14.2.1-3.fc41.riscv64",
+    name = "libstdc-plus-plus-0__14.2.1-3.fc41.riscv64",
     sha256 = "3c850e2f0d94a45a6ca1d88102fd2da304c49fdee5f4b55650e63d2fa705f86a",
     urls = [
        "https://openkoji.iscas.ac.cn/kojifiles/repos/f41-build/latest/riscv64/toplink/packages/gcc/14.2.1/3.fc41/riscv64/libstdc++-14.2.1-3.fc41.riscv64.rpm"
