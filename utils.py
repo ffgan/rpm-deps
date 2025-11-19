@@ -36,7 +36,7 @@ def generate_package_name(pkg_info: dict) -> str:
     ver = pkg_info["ver"].replace("^","-")
     rel = pkg_info["rel"]
     arch = pkg_info["arch"]
-    pkg_info['name'] = pkg_info['name'].replace("+","-plus")
+    pkg_info['name'] = pkg_info['name'].replace("+","__plus__")
 
     return f"{pkg_info['name']}-{epoch}__{ver}-{rel}.{arch}"
 

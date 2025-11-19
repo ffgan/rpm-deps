@@ -45,11 +45,14 @@ testimage="
 crypto-policies-scripts
 qemu-img
 nginx
+libstdc++
 python3-systemd
 systemd-libs
 openssl
 buildah
 "
+
+rm -rf out_put
 
 python rpm.py --packages PACKAGES $centos_base $centos_extra $testimage --rpmtree testimage_riscv64
 
